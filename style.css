@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+header, footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #f4f4f4;
+}
+#projects .project {
+    margin-bottom: 1.5em;
+}
