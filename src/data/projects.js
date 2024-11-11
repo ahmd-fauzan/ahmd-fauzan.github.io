@@ -1,51 +1,28 @@
 // Import images
-import WebImage1 from '../images/web-project-1.jpg';
-import WebImage2 from '../images/web-project-2.jpg';
-import MobileImage1 from '../images/mobile-project-1.jpg';
-import MobileImage2 from '../images/mobile-project-2.jpg';
-import UIImage1 from '../images/ui-project-1.jpg';
-import UIImage2 from '../images/ui-project-2.jpg';
+import Kredit1Image from '../images/kredit_1.png';
+import Tabungan1Image from '../images/tabungan_1.png';
 
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
-		category: 'Web Application',
-		img: WebImage2,
+		title: 'Aplikasi Tabungan Sekolah Dasar',
+		category: 'Mobile Application',
+		img: Tabungan1Image,
 		ProjectHeader: {
-			title: 'Project Management UI - From Context',
-			publishDate: 'Jul 26, 2021',
-			tags: 'UI / Frontend',
+			title: 'Aplikasi Tabungan Sekolah Dasar',
+			publishDate: '2024',
+			tags: 'Mobile Application',
 		},
 	},
 	{
 		id: 2,
-		title: 'Phoenix Digital Agency',
+		title: 'Aplikasi Pengelolaan Kredit',
 		category: 'Mobile Application',
-		img: MobileImage2,
-	},
-	{
-		id: 3,
-		title: 'Project Management UI',
-		category: 'UI/UX Design',
-		img: UIImage1,
-	},
-	{
-		id: 4,
-		title: 'Cloud Storage Platform',
-		category: 'UI/UX Design',
-		img: UIImage2,
-	},
-	{
-		id: 5,
-		title: 'React Social App',
-		category: 'Mobile Application',
-		img: MobileImage1,
-	},
-	{
-		id: 6,
-		title: 'Apple Design System',
-		category: 'Web Application',
-		img: WebImage1,
+		img: Kredit1Image,
+		ProjectHeader: {
+			title: 'Aplikasi Pengelolaan Kredit',
+			publishDate: '2022',
+			tags: 'Mobile Application',
+		},
 	},
 ];

@@ -1,162 +1,131 @@
-// Import images
-import Image1 from '../images/ui-project-1.jpg';
-import Image2 from '../images/web-project-2.jpg';
-import Image3 from '../images/mobile-project-2.jpg';
-import Image4 from '../images/mobile-project-1.jpg';
-import Image5 from '../images/web-project-1.jpg';
-import Image6 from '../images/ui-project-2.jpg';
-// Import icons
-import {
-	FiFacebook,
-	FiInstagram,
-	FiLinkedin,
-	FiTwitter,
-	FiYoutube,
-} from 'react-icons/fi';
+//Import Images
+import Kredit1Image from '../images/kredit_1.png';
+import Kredit2Image from '../images/kredit_2.png';
+import Tabungan1Image from '../images/tabungan_1.png';
+import Tabungan2Image from '../images/tabungan_2.png';
+//Import Data
+import { projectsData } from './projects';
 
-export const singleProjectData = {
-	ProjectHeader: {
-		title: 'Project Management UI',
-		publishDate: 'Jul 26, 2021',
-		tags: 'UI / Frontend',
-	},
-	ProjectImages: [
-		{
-			id: 1,
-			title: 'Kabul Project Management UI',
-			img: Image1,
-		},
-		{
-			id: 2,
-			title: 'Kabul Project Management UI',
-			img: Image2,
-		},
-		{
-			id: 3,
-			title: 'Kabul Project Management UI',
-			img: Image3,
-		},
-	],
-	ProjectInfo: {
-		ClientHeading: 'About Client',
-		CompanyInfo: [
-			{
-				id: 1,
-				title: 'Name',
-				details: 'Company Ltd',
-			},
-			{
-				id: 2,
-				title: 'Services',
-				details: 'UI Design & Frontend Development',
-			},
-			{
-				id: 3,
-				title: 'Website',
-				details: 'https://company.com',
-			},
-			{
-				id: 4,
-				title: 'Phone',
-				details: '555 8888 888',
-			},
-		],
-		ObjectivesHeading: 'Objective',
-		ObjectivesDetails:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, natus! Quibusdam enim quod in esse, mollitia molestias incidunt quas ipsa accusamus veniam.',
-		Technologies: [
-			{
-				title: 'Tools & Technologies',
-				techs: [
-					'HTML',
-					'CSS',
-					'JavaScript',
-					'Vue.js',
-					'TailwindCSS',
-					'AdobeXD',
-				],
-			},
-		],
-		ProjectDetailsHeading: 'Challenge',
-		ProjectDetails: [
-			{
-				id: 1,
-				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-			},
-			{
-				id: 2,
-				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-			},
-			{
-				id: 3,
-				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
-			},
-			{
-				id: 4,
-				details:
-					'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
-			},
-		],
-		SocialSharingHeading: 'Share This',
-		SocialSharing: [
-			{
-				id: 1,
-				name: 'Twitter',
-				icon: <FiTwitter />,
-				url: 'https://twitter.com/realstoman',
-			},
-			{
-				id: 2,
-				name: 'Instagram',
-				icon: <FiInstagram />,
-				url: 'https://instagram.com/realstoman',
-			},
-			{
-				id: 3,
-				name: 'Facebook',
-				icon: <FiFacebook />,
-				url: 'https://facebook.com/',
-			},
-			{
-				id: 4,
-				name: 'LinkedIn',
-				icon: <FiLinkedin />,
-				url: 'https://linkedin.com/',
-			},
-			{
-				id: 5,
-				name: 'Youtube',
-				icon: <FiYoutube />,
-				url: 'https://www.youtube.com/c/StomanStudio',
-			},
-		],
-	},
-	RelatedProject: {
-		title: 'Related Projects',
-		Projects: [
-			{
-				id: 1,
-				title: 'Mobile UI',
-				img: Image4,
-			},
-			{
-				id: 2,
-				title: 'Web Application',
-				img: Image5,
-			},
-			{
-				id: 3,
-				title: 'UI Design',
-				img: Image6,
-			},
-			{
-				id: 4,
-				title: 'Kabul Mobile App UI',
-				img: Image3,
-			},
-		],
-	},
-};
+export const singleProjectData = [
+  {
+	id: 1,
+    ProjectHeader: {
+      title: 'Aplikasi Tabungan Sekolah Dasar',
+      publishDate: '2024',
+      tags: 'Mobile Application',
+    },
+    ProjectImages: [
+      { id: 1, title: 'Tabungan_1', img: Tabungan1Image },
+      { id: 2, title: 'Tabungan_2', img: Tabungan2Image },
+    ],
+    ProjectInfo: {
+      OverviewHeading: 'Project Overview',
+      OverviewDetails:
+        'Aplikasi ini dirancang untuk membantu sekolah mengelola tabungan siswa dengan fitur pencatatan yang mudah digunakan.',
+      GoalHeading: 'Goal',
+      GoalDetails:
+        'Memberikan solusi digital bagi sekolah untuk mengatur, menyimpan, dan memonitor data tabungan siswa.',
+      Technologies: [
+        {
+          title: 'Tools & Technologies',
+          techs: ['React Native', 'Golang'],
+        },
+      ],
+      ProjectDetailsHeading: 'Feature & Details',
+      ProjectDetails: {
+        description:
+          'Aplikasi ini memungkinkan guru mengelola data tabungan siswa dengan cepat dan aman langsung dari perangkat mobile. Dengan antarmuka yang mudah digunakan, aplikasi ini mendukung pencatatan transaksi di mana saja dan kapan saja, sesuai kebutuhan sekolah.',
+        feature: [
+          {
+            id: 1,
+            title: 'Dashboard',
+            details:
+              'Memberikan ringkasan data tabungan, seperti total saldo, transaksi terbaru, dan statistik siswa aktif.',
+          },
+          {
+            id: 2,
+            title: 'Pencatatan Transaksi',
+            details:
+              'Fitur untuk menambah setoran dan penarikan tabungan siswa, dilengkapi dengan rincian lengkap untuk setiap transaksi.',
+          },
+          {
+            id: 3,
+            title: 'Riwayat Transaksi',
+            details:
+              'Guru dapat mengakses riwayat tabungan untuk memudahkan pemantauan dan pelaporan.',
+          },
+        ],
+      },
+    },
+    RelatedProject: {
+      title: 'Related Projects',
+      Projects: [
+        projectsData[1]
+      ],
+    },
+  },
+  // Tambahkan proyek lain jika perlu
+  {
+	id: 2,
+    ProjectHeader: {
+      title: 'Aplikasi Management Kredit',
+      publishDate: '2022',
+      tags: 'Mobile Application',
+    },
+    ProjectImages: [
+      { id: 1, title: 'Kredit_1', img: Kredit1Image },
+      { id: 2, title: 'Kredit_2', img: Kredit2Image },
+    ],
+    ProjectInfo: {
+      OverviewHeading: 'Project Overview',
+      OverviewDetails:
+        'Aplikasi ini adalah aplikasi mobile untuk memudahkan pencatatan transaksi kredit, ditujukan bagi pengguna individu. Aplikasi ini memungkinkan pemantauan transaksi kredit dan memberikan informasi detail setiap orang yang melakukan kredit.',
+      GoalHeading: 'Goal',
+      GoalDetails:
+        'Menyediakan platform mobile yang memudahkan pencatatan dan pemantauan transaksi kredit, dengan akses cepat dan informasi yang lengkap bagi setiap pengguna. Aplikasi ini bertujuan untuk mengoptimalkan manajemen data kredit sehingga lebih efisien dan terorganisir.',
+      Technologies: [
+        {
+          title: 'Tools & Technologies',
+          techs: ['Android Studio', 'Java', 'Kotlin', 'Firebase'],
+        },
+      ],
+      ProjectDetailsHeading: 'Feature & Details',
+      ProjectDetails: {
+        description:
+          'Aplikasi pengelolaan kredit ini membantu mencatat transaksi kredit pengguna dengan mudah dan memberikan informasi detail tentang setiap orang yang melakukan kredit. Dengan antarmuka yang intuitif, aplikasi ini memungkinkan pengguna individu mengelola kredit secara efisien dan aman.',
+        feature: [
+          {
+            id: 1,
+            title: 'Dashboard Kredit',
+            details:
+              'Menyajikan informasi lengkap tentang data kredit, termasuk total saldo kredit, dan transaksi terakhir. Dashboard memberikan gambaran umum tentang status kredit pengguna secara real-time.',
+          },
+          {
+            id: 2,
+            title: 'Pencatatan Transaksi Kredit',
+            details:
+              'Pengguna dapat mencatat setiap transaksi kredit, meliputi detail seperti jumlah kredit, tanggal transaksi, serta data orang yang melakukan kredit, sehingga semua data kredit tersimpan dengan baik.',
+          },
+          {
+            id: 3,
+            title: 'Manajemen Data Pengguna Kredit',
+            details:
+              'Fitur ini memudahkan admin atau lembaga untuk mencatat data setiap orang yang melakukan kredit, termasuk informasi pribadi dan detail kredit. Dengan Firebase, data pengguna aman dan bisa diakses sesuai kebutuhan.',
+          },
+          {
+            id: 4,
+            title: 'Riwayat Transaksi',
+            details: 'Pengguna dapat melihat riwayat lengkap transaksi kredit mereka, baik yang sedang berlangsung maupun yang sudah selesai.'
+          }
+        ],
+      },
+    },
+    RelatedProject: {
+      title: 'Related Projects',
+      Projects: [
+        projectsData[0]
+      ],
+    },
+  },
+];
+

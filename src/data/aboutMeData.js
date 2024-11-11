@@ -1,10 +1,10 @@
 export const aboutMeData = [
 	{
 		id: 1,
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt totam dolorum, ducimus obcaecati, voluptas facilis molestias nobis ut quam natus similique inventore excepturi optio ipsa deleniti fugit illo. Unde, amet! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum illo necessitatibus perspiciatis! Aperiam perferendis labore temporibus, eos culpa corporis recusandae quas, fuga voluptatibus nesciunt odit libero tenetur neque consequatur ea.',
+		bio: 'I am an Immersive Engineer focused on AR/VR development using Unity. With experience in immersive technology, I have a strong interest in expanding my skills into mobile and web development, both on the front end and back end. I am excited to explore how various platforms can contribute to creating more engaging and immersive user experiences.',
 	},
 	{
 		id: 2,
-		bio: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil vel illum asperiores dignissimos cumque quibusdam et fugiat voluptatem nobis suscipit explicabo, eaque consequatur nesciunt, fugit eligendi corporis laudantium adipisci soluta?',
+		bio: 'My background in AR/VR has given me a solid foundation in creating interactive 3D environments and understanding user engagement in virtual spaces. I’m passionate about leveraging these skills to enhance applications across different platforms, blending immersive experiences with practical, user-friendly designs. As I dive deeper into mobile and web development, I’m eager to integrate these technologies, bridging the gap between traditional and immersive applications to deliver unique, impactful solutions.',
 	},
 ];
