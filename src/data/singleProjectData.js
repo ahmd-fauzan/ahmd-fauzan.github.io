@@ -3,6 +3,10 @@ import Kredit1Image from '../images/kredit_1.png';
 import Kredit2Image from '../images/kredit_2.png';
 import Tabungan1Image from '../images/tabungan_1.png';
 import Tabungan2Image from '../images/tabungan_2.png';
+import SahabatStore2Image from '../images/sahabatStore2.jpg';
+import SahabatStore3Image from '../images/sahabatStore3.jpg';
+import SahabatStore4Image from '../images/sahabatStore4.jpg';
+
 //Import Data
 import { projectsData } from './projects';
 
@@ -120,6 +124,7 @@ export const singleProjectData = [
         ],
       },
     },
+    
     RelatedProject: {
       title: 'Related Projects',
       Projects: [
@@ -127,5 +132,70 @@ export const singleProjectData = [
       ],
     },
   },
+  {
+    id: 3,
+      ProjectHeader: {
+        title: 'Sahabat Store Application',
+        publishDate: '2025',
+        tags: 'Web Application',
+      },
+      ProjectImages: [
+        { id: 1, title: 'SahabatStore_2', img: SahabatStore2Image},
+        { id: 2, title: 'SahabatStore_3', img: SahabatStore3Image },
+        { id: 3, title: 'SahabatStore_4', img: SahabatStore4Image },
+      ],
+      ProjectInfo: {
+        OverviewHeading: 'Project Overview',
+        OverviewDetails:
+          'Aplikasi ini merupakan aplikasi web untuk mengelola Point Of Sale',
+        GoalHeading: 'Goal',
+        GoalDetails:
+          'Menyediakan platform web yang memudahkan pencatatan dan pemantauan transaksi toko, dengan akses cepat dan informasi yang lengkap bagi setiap pengguna. Aplikasi ini bertujuan untuk mengoptimalkan manajemen data toko sehingga lebih efisien dan terorganisir.',
+        Technologies: [
+          {
+            title: 'Tools & Technologies',
+            techs: ['Springboot', 'Java', 'Angular', 'Tailwind'],
+          },
+        ],
+        ProjectDetailsHeading: 'Feature & Details',
+        ProjectDetails: {
+          description:
+            'Aplikasi pengelolaan POS ini membantu mencatat transaksi dengan mudah dan memberikan informasi detail. Dengan antarmuka yang intuitif, aplikasi ini memungkinkan pengguna individu mengelola POS secara efisien dan aman.',
+          feature: [
+            {
+              id: 1,
+              title: 'Dashboard',
+              details:
+                'Menyajikan informasi lengkap tentang penjualan hari ini, penjualan per tahun, pengeluaran dan total produk',
+            },
+            {
+              id: 2,
+              title: 'Inventory',
+              details:
+                'Pengguna dapat melihat informasi mengenai product dan dapat menambahkan produk baru',
+            },
+            {
+              id: 3,
+              title: 'Supplier',
+              details:
+                'Pengguna dapat melihat informasi mengenai supplier dan dapat menambahkan supplier baru',
+            },
+            {
+              id: 4,
+              title: 'Sales Orders',
+              details: 'Pengguna dapat melihat informasi transaksi penjualan dan mencatat transaksi penjualan'
+            }
+          ],
+        },
+      },
+      
+      RelatedProject: {
+        title: 'Related Projects',
+        Projects: [
+          projectsData[0],
+          projectsData[1]
+        ],
+      },
+    },
 ];
 
