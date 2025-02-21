@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.78751c2c.css",
-    "main.js": "/static/js/main.f83c86df.js",
+    "main.js": "/static/js/main.d1159291.js",
     "static/js/789.ab8ff246.chunk.js": "/static/js/789.ab8ff246.chunk.js",
     "static/js/5.c6b744cb.chunk.js": "/static/js/5.c6b744cb.chunk.js",
-    "static/js/42.fd59f454.chunk.js": "/static/js/42.fd59f454.chunk.js",
-    "static/js/283.88d5b86d.chunk.js": "/static/js/283.88d5b86d.chunk.js",
-    "static/js/170.00c435b0.chunk.js": "/static/js/170.00c435b0.chunk.js",
+    "static/js/104.ea44e8fc.chunk.js": "/static/js/104.ea44e8fc.chunk.js",
+    "static/js/463.8fe0418d.chunk.js": "/static/js/463.8fe0418d.chunk.js",
+    "static/js/775.702b6180.chunk.js": "/static/js/775.702b6180.chunk.js",
     "static/js/453.9252274e.chunk.js": "/static/js/453.9252274e.chunk.js",
     "static/js/751.430d8a70.chunk.js": "/static/js/751.430d8a70.chunk.js",
     "static/media/profile.png": "/static/media/profile.be482f8d4d795780cce4.png",
@@ -16,7 +16,9 @@
     "static/media/kredit_1.png": "/static/media/kredit_1.936c4dd1d601edaa187b.png",
     "static/media/GeneralSans-Variable.ttf": "/static/media/GeneralSans-Variable.d7facbbe2ed9ae4aae49.ttf",
     "static/media/javascript_icon.png": "/static/media/javascript_icon.461f5b059fb3fe95cc89.png",
+    "static/media/sahabatStore4.jpg": "/static/media/sahabatStore4.acaf9c2533e83a707f35.jpg",
     "static/media/react js_icon.png": "/static/media/react js_icon.28287ee50906e64a6473.png",
+    "static/media/sahabatStore3.jpg": "/static/media/sahabatStore3.d02cc1d3a1bcb9e25fc6.jpg",
     "static/media/tabungan_1.png": "/static/media/tabungan_1.5641139f06c7bceea305.png",
     "static/media/GeneralSans-LightItalic.ttf": "/static/media/GeneralSans-LightItalic.01f39fefaea383e46bde.ttf",
     "static/media/GeneralSans-MediumItalic.ttf": "/static/media/GeneralSans-MediumItalic.8eb302fc9872cba25291.ttf",
@@ -40,6 +42,7 @@
     "static/media/GeneralSans-Variable.woff2": "/static/media/GeneralSans-Variable.65a7e76e15a342e2ed8f.woff2",
     "static/media/dart_icon.png": "/static/media/dart_icon.d5fd89c6a0625bc7a618.png",
     "static/media/GeneralSans-VariableItalic.woff": "/static/media/GeneralSans-VariableItalic.e4ae865b18351f51feb9.woff",
+    "static/media/sahabatStore2.jpg": "/static/media/sahabatStore2.3058acc64d91a7ad0e6c.jpg",
     "static/media/GeneralSans-Variable.woff": "/static/media/GeneralSans-Variable.bc2b124702cdb8b3b38b.woff",
     "static/media/GeneralSans-SemiboldItalic.woff": "/static/media/GeneralSans-SemiboldItalic.36eb24d73e66df8e25a4.woff",
     "static/media/flutter_icon.png": "/static/media/flutter_icon.689e471116a174543a1b.png",
@@ -70,20 +73,21 @@
     "static/media/GeneralSans-Extralight.woff2": "/static/media/GeneralSans-Extralight.d6a4332df60f058537bf.woff2",
     "static/media/developer-dark.svg": "/static/media/developer-dark.aa2700b57c0b14ead116acc39d478609.svg",
     "static/media/developer.svg": "/static/media/developer.2f084608158c1db6dcc0b2c76a2806f7.svg",
+    "static/media/sahabatStore1.jpg": "/static/media/sahabatStore1.97f59c957b00066b54a2.jpg",
     "static/media/unity_icon.png": "/static/media/unity_icon.abef0bac7475716fd226.png",
     "index.html": "/index.html",
     "main.78751c2c.css.map": "/static/css/main.78751c2c.css.map",
-    "main.f83c86df.js.map": "/static/js/main.f83c86df.js.map",
+    "main.d1159291.js.map": "/static/js/main.d1159291.js.map",
     "789.ab8ff246.chunk.js.map": "/static/js/789.ab8ff246.chunk.js.map",
     "5.c6b744cb.chunk.js.map": "/static/js/5.c6b744cb.chunk.js.map",
-    "42.fd59f454.chunk.js.map": "/static/js/42.fd59f454.chunk.js.map",
-    "283.88d5b86d.chunk.js.map": "/static/js/283.88d5b86d.chunk.js.map",
-    "170.00c435b0.chunk.js.map": "/static/js/170.00c435b0.chunk.js.map",
+    "104.ea44e8fc.chunk.js.map": "/static/js/104.ea44e8fc.chunk.js.map",
+    "463.8fe0418d.chunk.js.map": "/static/js/463.8fe0418d.chunk.js.map",
+    "775.702b6180.chunk.js.map": "/static/js/775.702b6180.chunk.js.map",
     "453.9252274e.chunk.js.map": "/static/js/453.9252274e.chunk.js.map",
     "751.430d8a70.chunk.js.map": "/static/js/751.430d8a70.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.78751c2c.css",
-    "static/js/main.f83c86df.js"
+    "static/js/main.d1159291.js"
   ]
 }
